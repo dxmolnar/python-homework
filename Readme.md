@@ -25,7 +25,7 @@ In this project, a Python script is created to analyze financial records from a 
 ## What is PyRamen?
 
 PyRamen is a python script that evaluate the financial performance of the business.
-The data in the sales_data.csv file is cross-referenced with internal menu data to perform calculations. The calculations of interest include total revenue and costs, and on a per-product basis to understand which products are doing well, which are doing poorly, and which products need to be removed.
+The data in the (`sales_data.csv`) file is cross-referenced with internal (` menu_data.csv`) to perform calculations. The calculations of interest include total revenue and costs, and on a per-product basis to understand which products are doing well, which are doing poorly, and which products need to be removed.
 In the main.py script pathlib and csv libraries were imported to read in the sales and menu data files. Then lists were created to hold the menu and sales data as objects in python. After this a dictionary was initialized to hold the future aggregated per-product results:
 
 After running the script the results were saved in a .txt file.
